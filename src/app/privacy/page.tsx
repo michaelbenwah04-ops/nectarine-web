@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-bold text-slate-900">Overview</h2>
             <p>
               Nectarine (“we”, “us”, or “our”), operated at{' '}
-              <strong>getnectarine.com</strong>, is a browser extension and companion website that
+              <strong>joinnectarine.com</strong>, is a browser extension and companion website that
               helps you compare cash-pay prices for pet and household prescriptions and display free
               pharmacy discount card details. We designed Nectarine to be privacy-first and largely{' '}
               <strong>stateless</strong>: we do not create user accounts, and we do not operate a
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
               ZIP is used solely to estimate nearby cash prices.
             </p>
             <p>
-              The companion website at getnectarine.com does <strong>not</strong> require login and
+              The companion website at joinnectarine.com does <strong>not</strong> require login and
               does not store prescription card details after you leave the page. The mobile discount
               card at <code className="rounded bg-slate-100 px-1.5 py-0.5 text-sm">/card</code> reads
               parameters from the URL in your browser only for that session.
@@ -113,9 +113,9 @@ export default function PrivacyPage() {
               Questions about privacy? Email{' '}
               <a
                 className="font-medium text-orange-700 underline"
-                href="mailto:privacy@getnectarine.com"
+                href="mailto:privacy@joinnectarine.com"
               >
-                privacy@getnectarine.com
+                privacy@joinnectarine.com
               </a>
               .
             </p>

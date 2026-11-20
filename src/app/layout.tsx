@@ -16,28 +16,28 @@ const display = Outfit({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Nectarine — Pet Prescription Savings',
+    default: 'Nectarine — Put Nectarine on it.',
     template: '%s | Nectarine',
   },
   description:
-    'Nectarine finds the lowest local cash-discount prices on dog, cat, and household medications while you browse—no sign-up, no pet insurance needed, and 100% free.',
-  metadataBase: new URL('https://getnectarine.com'),
+    'Buying prescriptions for your pet or family? Nectarine finds the lowest local cash-discount prices at 60,000+ pharmacies—no sign-up, no insurance card, and 100% free.',
+  metadataBase: new URL('https://joinnectarine.com'),
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: 'Nectarine — Pet Prescription Savings',
+    title: 'Nectarine — Put Nectarine on it.',
     description:
-      'Honey-style cash discounts for pet prescriptions. No signup. No PHI stored.',
+      'Honey-style cash discounts for pet & family prescriptions. No signup. No PHI stored.',
     type: 'website',
-    url: 'https://getnectarine.com',
+    url: 'https://joinnectarine.com',
   },
 }
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html lang="en" className={`${body.variable} ${display.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col font-sans text-slate-900">{children}</body>
+      <body className="min-h-full flex flex-col font-sans text-[#111827]">{children}</body>
     </html>
   )
 }

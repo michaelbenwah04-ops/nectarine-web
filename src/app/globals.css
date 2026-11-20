@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fffaf5;
-  --foreground: #0f172a;
-  --nectarine: #f97316;
-  --nectarine-light: #fb923c;
+  --background: #ffffff;
+  --foreground: #111827;
+  --nectarine: #ea580c;
+  --nectarine-bright: #f97316;
+  --cream: #faf5ee;
+  --mint: #f2f8f7;
   --savings: #10b981;
 }
 
@@ -30,20 +32,10 @@ body {
   color: #9a3412;
 }
 
-@keyframes nectarine-float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
-}
-
 @keyframes nectarine-fade-up {
   from {
     opacity: 0;
-    transform: translateY(16px);
+    transform: translateY(14px);
   }
   to {
     opacity: 1;
@@ -51,36 +43,30 @@ body {
   }
 }
 
-@keyframes nectarine-pulse-soft {
+@keyframes nectarine-float {
   0%,
   100% {
-    opacity: 0.45;
-    transform: scale(1);
+    transform: translateY(0);
   }
   50% {
-    opacity: 0.7;
-    transform: scale(1.04);
+    transform: translateY(-6px);
   }
-}
-
-.animate-nectarine-float {
-  animation: nectarine-float 5s ease-in-out infinite;
 }
 
 .animate-nectarine-fade-up {
-  animation: nectarine-fade-up 0.7s ease-out both;
+  animation: nectarine-fade-up 0.65s ease-out both;
 }
 
 .animate-nectarine-fade-up-delay {
-  animation: nectarine-fade-up 0.7s ease-out 0.12s both;
+  animation: nectarine-fade-up 0.65s ease-out 0.1s both;
 }
 
 .animate-nectarine-fade-up-delay-2 {
-  animation: nectarine-fade-up 0.7s ease-out 0.24s both;
+  animation: nectarine-fade-up 0.65s ease-out 0.2s both;
 }
 
-.animate-nectarine-pulse-soft {
-  animation: nectarine-pulse-soft 6s ease-in-out infinite;
+.animate-nectarine-float {
+  animation: nectarine-float 5.5s ease-in-out infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -88,11 +74,10 @@ body {
     scroll-behavior: auto;
   }
 
-  .animate-nectarine-float,
   .animate-nectarine-fade-up,
   .animate-nectarine-fade-up-delay,
   .animate-nectarine-fade-up-delay-2,
-  .animate-nectarine-pulse-soft {
+  .animate-nectarine-float {
     animation: none;
   }
 }

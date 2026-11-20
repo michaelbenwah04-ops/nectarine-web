@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import { Loader2, MapPin, Search, Sparkles } from 'lucide-react'
+import { Loader2, MapPin, Search } from 'lucide-react'
 import { findDrug, searchDrugs } from '@/lib/drugs'
 import {
   buildCardUrl,
@@ -14,7 +14,7 @@ import type { Drug, PharmacyOffer } from '@/lib/types'
 import { formatSpecies } from '@/lib/types'
 import { NectarineMark } from './NectarineMark'
 
-const QUICK_CHIPS = ['Gabapentin', 'Apoquel', 'Trazodone', 'Simparica Trio'] as const
+const QUICK_CHIPS = ['Gabapentin', 'Apoquel', 'Trazodone', 'Atorvastatin'] as const
 
 export function DemoWidget() {
   const [query, setQuery] = useState('Gabapentin')
@@ -85,10 +85,10 @@ export function DemoWidget() {
       : null
 
   return (
-    <div className="overflow-hidden rounded-[1.75rem] border border-orange-100 bg-white shadow-2xl shadow-orange-900/10">
-      <div className="flex items-center gap-2 border-b border-orange-50 bg-gradient-to-r from-orange-50 to-amber-50 px-5 py-3">
-        <Sparkles className="h-4 w-4 text-orange-600" />
-        <p className="text-sm font-semibold text-orange-800">Pet med savings calculator</p>
+    <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl shadow-black/10">
+      <div className="flex items-center gap-2 border-b border-slate-100 px-5 py-3.5">
+        <NectarineMark size={18} />
+        <p className="text-sm font-semibold text-[#111827]">Live savings preview</p>
       </div>
 
       <div className="space-y-4 p-5">
@@ -98,7 +98,7 @@ export function DemoWidget() {
               key={chip}
               type="button"
               onClick={() => pickChip(chip)}
-              className="rounded-full bg-orange-50 px-3 py-1 text-[11px] font-semibold text-orange-700 transition hover:bg-orange-100"
+              className="rounded-full border border-slate-200 bg-white px-3 py-1 text-[11px] font-semibold text-[#111827] transition hover:border-[#EA580C]/40 hover:bg-[#FFF7ED]"
             >
               {chip}
             </button>
@@ -108,7 +108,7 @@ export function DemoWidget() {
         <label className="block">
           <span className="mb-1.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide text-slate-500">
             <Search className="h-3.5 w-3.5" />
-            Pet or household medication
+            Medication
           </span>
           <input
             value={query}
@@ -117,8 +117,8 @@ export function DemoWidget() {
               setSelected(null)
               setOffers(null)
             }}
-            placeholder="Gabapentin, Apoquel, Rimadyl…"
-            className="w-full rounded-xl border border-slate-200 bg-slate-50 px-3.5 py-2.5 text-sm font-medium text-slate-900 outline-none transition focus:border-orange-400 focus:bg-white focus:ring-4 focus:ring-orange-100"
+            placeholder="Apoquel, Gabapentin, Trazodone…"
+            className="w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm font-medium text-[#111827] outline-none transition focus:border-[#EA580C] focus:ring-4 focus:ring-orange-100"
           />
         </label>
 
@@ -129,19 +129,25 @@ export function DemoWidget() {
                 <button
                   type="button"
                   onClick={() => pickDrug(drug)}
-                  className="flex w-full items-center justify-between gap-2 px-3.5 py-2.5 text-left text-sm transition hover:bg-orange-50"
+                  className="flex w-full items-center justify-between gap-2 px-3.5 py-2.5 text-left text-sm transition hover:bg-[#FAF5EE]"
                 >
                   <span>
-                    <span className="font-semibold text-slate-900">{drug.name}</span>
+                    <span className="font-semibold text-[#111827]">{drug.name}</span>
                     <span className="ml-2 text-xs text-slate-400">
                       {drug.brandNames[0]} · {formatSpecies(drug.species)}
                     </span>
                   </span>
-                  <span className="text-[11px] font-semibold text-orange-600">Select</span>
+                  <span className="text-[11px] font-semibold text-[#EA580C]">Select</span>
                 </button>
               </li>
             ))}
           </ul>
+        ) : null}
+
+        {!selected && query.trim() && results.length === 0 ? (
+          <p className="rounded-xl bg-slate-50 px-3 py-3 text-center text-xs text-slate-500">
+            No match in our pet &amp; family list — try Gabapentin, Apoquel, or Amoxicillin.
+          </p>
         ) : null}
 
         {selected ? (
@@ -154,7 +160,7 @@ export function DemoWidget() {
                   setDosage(e.target.value)
                   setOffers(null)
                 }}
-                className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-xs font-medium text-slate-800 outline-none focus:border-orange-400"
+                className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-xs font-medium outline-none focus:border-[#EA580C]"
               >
                 {selected.dosageOptions.map((opt) => (
                   <option key={opt} value={opt}>
@@ -171,7 +177,7 @@ export function DemoWidget() {
                   setQuantity(Number(e.target.value))
                   setOffers(null)
                 }}
-                className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-xs font-medium text-slate-800 outline-none focus:border-orange-400"
+                className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-xs font-medium outline-none focus:border-[#EA580C]"
               >
                 {selected.quantityOptions.map((opt) => (
                   <option key={opt} value={opt}>
@@ -192,7 +198,7 @@ export function DemoWidget() {
                   }}
                   inputMode="numeric"
                   maxLength={5}
-                  className="w-full rounded-lg border border-slate-200 bg-white py-2 pl-6 pr-2 text-xs font-medium text-slate-800 outline-none focus:border-orange-400"
+                  className="w-full rounded-lg border border-slate-200 bg-white py-2 pl-6 pr-2 text-xs font-medium outline-none focus:border-[#EA580C]"
                 />
               </span>
             </label>
@@ -200,7 +206,7 @@ export function DemoWidget() {
         ) : null}
 
         {selected ? (
-          <p className="rounded-lg bg-orange-50 px-3 py-1.5 text-[11px] font-medium text-orange-800">
+          <p className="text-[11px] font-medium text-slate-500">
             {formatSpecies(selected.species)} · {selected.commonUse}
           </p>
         ) : null}
@@ -209,7 +215,7 @@ export function DemoWidget() {
           type="button"
           onClick={runCompare}
           disabled={loading || zip.length !== 5 || (!selected && results.length === 0)}
-          className="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-orange-400 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-orange-500/25 transition hover:from-orange-600 hover:to-orange-500 disabled:cursor-not-allowed disabled:opacity-50"
+          className="flex w-full items-center justify-center gap-2 rounded-full bg-[#EA580C] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#c2410c] disabled:cursor-not-allowed disabled:opacity-50"
         >
           {loading ? (
             <>
@@ -217,46 +223,42 @@ export function DemoWidget() {
               Comparing pharmacies…
             </>
           ) : (
-            <>
-              <NectarineMark size={18} />
-              Check cash prices
-            </>
+            'Check cash prices'
           )}
         </button>
 
         {offers && best ? (
-          <div className="space-y-2 rounded-2xl border border-orange-100 bg-orange-50/50 p-3">
+          <div className="space-y-3 rounded-2xl border border-slate-100 bg-[#FAF5EE]/70 p-4">
             <div className="flex items-start justify-between gap-3">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-orange-700">
-                  Lowest cash price
-                </p>
-                <p className="text-sm font-bold text-slate-900">{best.pharmacy}</p>
-                <p className="text-xs text-slate-500">
-                  {selected?.name} · {dosage} · Qty {quantity}
+                <p className="text-xs font-semibold text-slate-500">{best.pharmacy}</p>
+                <p className="mt-1 text-sm text-[#111827]">
+                  {selected?.name} · {dosage}
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-xl font-bold text-slate-900">{formatMoney(best.cashPrice)}</p>
                 <p className="text-xs text-slate-400 line-through">{formatMoney(best.retailPrice)}</p>
-                <p className="mt-0.5 inline-flex rounded-full bg-emerald-500 px-2 py-0.5 text-[10px] font-bold text-white">
-                  Save {formatMoney(best.savings)}
+                <p className="text-xl font-bold text-[#10B981]">
+                  You saved {formatMoney(best.savings)}
+                </p>
+                <p className="text-sm font-semibold text-[#111827]">
+                  Cash {formatMoney(best.cashPrice)}
                 </p>
               </div>
             </div>
             {cardHref ? (
               <Link
                 href={cardHref}
-                className="flex w-full items-center justify-center rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800"
+                className="flex w-full items-center justify-center rounded-full bg-[#111827] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-black"
               >
-                Open mobile discount card
+                Preview Mobile Card
               </Link>
             ) : null}
-            <ul className="divide-y divide-orange-100/80 rounded-xl bg-white">
+            <ul className="divide-y divide-slate-100 rounded-xl bg-white">
               {offers.map((offer) => (
                 <li key={offer.id} className="flex items-center justify-between px-3 py-2 text-sm">
                   <span className="font-medium text-slate-700">{offer.pharmacy}</span>
-                  <span className="font-semibold text-slate-900">{formatMoney(offer.cashPrice)}</span>
+                  <span className="font-semibold text-[#111827]">{formatMoney(offer.cashPrice)}</span>
                 </li>
               ))}
             </ul>

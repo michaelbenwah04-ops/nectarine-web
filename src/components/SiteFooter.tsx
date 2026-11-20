@@ -1,36 +1,68 @@
 import Link from 'next/link'
 import { NectarineMark } from './NectarineMark'
 
+const PRODUCT = [
+  { href: '/#how', label: 'How it works' },
+  { href: '/#demo', label: 'Savings calculator' },
+  { href: '/#install', label: 'Add to Chrome' },
+  { href: '/card', label: 'Mobile Rx card' },
+]
+
+const POPULAR = [
+  { href: '/#demo', label: 'Gabapentin' },
+  { href: '/#demo', label: 'Apoquel' },
+  { href: '/#demo', label: 'Trazodone' },
+  { href: '/#demo', label: 'Simparica Trio' },
+]
+
+const LEGAL = [
+  { href: '/privacy', label: 'Privacy Policy' },
+  { href: 'mailto:privacy@joinnectarine.com', label: 'Contact' },
+]
+
 export function SiteFooter() {
   return (
-    <footer className="border-t border-slate-200 bg-slate-50">
-      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">
-        <div className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-orange-400 to-orange-500">
-            <NectarineMark size={18} />
-          </span>
-          <div>
-            <p className="text-sm font-bold text-slate-900">Nectarine</p>
-            <p className="text-xs text-slate-500">Pet prescription cash savings</p>
+    <footer className="border-t border-slate-100 bg-white">
+      <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-[1.2fr_1fr_1fr_1fr]">
+        <div>
+          <Link href="/" className="inline-flex items-center gap-2">
+            <NectarineMark size={22} />
+            <span className="text-base font-bold text-[#111827]">Nectarine</span>
+          </Link>
+          <p className="mt-3 max-w-xs text-sm leading-relaxed text-slate-500">
+            Cash-discount prices for pet &amp; family prescriptions. Free forever.
+          </p>
+        </div>
+
+        {[
+          { title: 'Product', links: PRODUCT },
+          { title: 'Popular Meds', links: POPULAR },
+          { title: 'Legal', links: LEGAL },
+        ].map((col) => (
+          <div key={col.title}>
+            <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">{col.title}</p>
+            <ul className="mt-3 space-y-2">
+              {col.links.map((link) => (
+                <li key={link.label}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-slate-600 transition hover:text-[#EA580C]"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
-        <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500">
-          <Link href="/#demo" className="hover:text-orange-700">
-            Savings calculator
-          </Link>
-          <Link href="/privacy" className="hover:text-orange-700">
-            Privacy
-          </Link>
-          <a href="#install" className="hover:text-orange-700">
-            Install
-          </a>
-          <p className="text-xs text-slate-400">© 2026 Nectarine</p>
-        </div>
+        ))}
       </div>
-      <p className="border-t border-slate-200 px-5 py-3 text-center text-[11px] text-slate-400 sm:px-8">
-        Nectarine is a price-comparison tool, not a pharmacy, vet clinic, or insurer. Always confirm
-        pricing with your pharmacist.
-      </p>
+
+      <div className="border-t border-slate-100 px-5 py-5 sm:px-8">
+        <p className="mx-auto max-w-6xl text-center text-[11px] leading-relaxed text-slate-400">
+          Nectarine is a free prescription price-comparison tool, not a pharmacy or insurance
+          provider. Always confirm pricing with your pharmacist. © 2026 Nectarine · joinnectarine.com
+        </p>
+      </div>
     </footer>
   )
 }
