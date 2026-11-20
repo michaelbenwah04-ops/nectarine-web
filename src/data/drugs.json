@@ -1,0 +1,1903 @@
+[
+  {
+    "name": "Oclacitinib",
+    "brandNames": [
+      "Apoquel"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Itching",
+    "defaultDosage": "5.4 mg",
+    "dosageOptions": [
+      "3.6 mg",
+      "5.4 mg",
+      "16 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      100
+    ],
+    "avgRetailPrice": 98.0
+  },
+  {
+    "name": "Lokivetmab",
+    "brandNames": [
+      "Cytopoint"
+    ],
+    "species": "dog",
+    "commonUse": "Allergies & Itching",
+    "defaultDosage": "20 mg injection",
+    "dosageOptions": [
+      "10 mg injection",
+      "20 mg injection",
+      "40 mg injection",
+      "60 mg injection"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 186.0
+  },
+  {
+    "name": "Bedinvetmab",
+    "brandNames": [
+      "Librela"
+    ],
+    "species": "dog",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "15 mg injection",
+    "dosageOptions": [
+      "5 mg injection",
+      "10 mg injection",
+      "15 mg injection",
+      "20 mg injection",
+      "30 mg injection"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 224.0
+  },
+  {
+    "name": "Frunevetmab",
+    "brandNames": [
+      "Solensia"
+    ],
+    "species": "cat",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "7 mg injection",
+    "dosageOptions": [
+      "7 mg injection"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 98.0
+  },
+  {
+    "name": "Cyclosporine",
+    "brandNames": [
+      "Atopica"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Itching",
+    "defaultDosage": "50 mg",
+    "dosageOptions": [
+      "10 mg",
+      "25 mg",
+      "50 mg",
+      "100 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      60
+    ],
+    "avgRetailPrice": 168.0
+  },
+  {
+    "name": "Temaril-P",
+    "brandNames": [
+      "Temaril-P"
+    ],
+    "species": "dog",
+    "commonUse": "Allergies & Itching",
+    "defaultDosage": "trimeprazine-prednisolone",
+    "dosageOptions": [
+      "trimeprazine-prednisolone"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 54.0
+  },
+  {
+    "name": "Sarolaner-Moxidectin-Pyrantel",
+    "brandNames": [
+      "Simparica Trio"
+    ],
+    "species": "dog",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "11-22 lbs",
+    "dosageOptions": [
+      "2.8-5.5 lbs",
+      "5.6-11 lbs",
+      "11.1-22 lbs",
+      "22.1-44 lbs",
+      "44.1-88 lbs",
+      "88.1-132 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      1,
+      3,
+      6
+    ],
+    "avgRetailPrice": 186.0
+  },
+  {
+    "name": "Afoxolaner",
+    "brandNames": [
+      "NexGard"
+    ],
+    "species": "dog",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "10.1-24 lbs",
+    "dosageOptions": [
+      "4-10 lbs",
+      "10.1-24 lbs",
+      "24.1-60 lbs",
+      "60.1-121 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      3,
+      6
+    ],
+    "avgRetailPrice": 148.0
+  },
+  {
+    "name": "Fluralaner",
+    "brandNames": [
+      "Bravecto"
+    ],
+    "species": "both",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "22-44 lbs",
+    "dosageOptions": [
+      "4.4-9.9 lbs",
+      "10-22 lbs",
+      "22.1-44 lbs",
+      "44.1-88 lbs",
+      "88.1-123 lbs"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1,
+      2
+    ],
+    "avgRetailPrice": 68.0
+  },
+  {
+    "name": "Lotilaner",
+    "brandNames": [
+      "Credelio"
+    ],
+    "species": "both",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "12-25 lbs",
+    "dosageOptions": [
+      "4.5-6 lbs",
+      "6.1-12 lbs",
+      "12.1-25 lbs",
+      "25.1-50 lbs",
+      "50.1-75 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      1,
+      6
+    ],
+    "avgRetailPrice": 132.0
+  },
+  {
+    "name": "Ivermectin-Pyrantel",
+    "brandNames": [
+      "Heartgard Plus"
+    ],
+    "species": "dog",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "26-50 lbs",
+    "dosageOptions": [
+      "up to 25 lbs",
+      "26-50 lbs",
+      "51-100 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      6,
+      12
+    ],
+    "avgRetailPrice": 72.0
+  },
+  {
+    "name": "Milbemycin-Lufenuron",
+    "brandNames": [
+      "Sentinel"
+    ],
+    "species": "dog",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "26-50 lbs",
+    "dosageOptions": [
+      "2-10 lbs",
+      "11-25 lbs",
+      "26-50 lbs",
+      "51-100 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      6
+    ],
+    "avgRetailPrice": 84.0
+  },
+  {
+    "name": "Milbemycin-Praziquantel",
+    "brandNames": [
+      "Interceptor Plus"
+    ],
+    "species": "dog",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "25-50 lbs",
+    "dosageOptions": [
+      "2-8 lbs",
+      "8.1-25 lbs",
+      "25.1-50 lbs",
+      "50.1-100 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      6
+    ],
+    "avgRetailPrice": 96.0
+  },
+  {
+    "name": "Selamectin",
+    "brandNames": [
+      "Revolution"
+    ],
+    "species": "both",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "10.1-20 lbs",
+    "dosageOptions": [
+      "up to 5 lbs",
+      "5.1-10 lbs",
+      "10.1-20 lbs",
+      "20.1-40 lbs",
+      "40.1-85 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      3,
+      6
+    ],
+    "avgRetailPrice": 112.0
+  },
+  {
+    "name": "Selamectin-Sarolaner",
+    "brandNames": [
+      "Revolution Plus"
+    ],
+    "species": "cat",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "5.1-10 lbs",
+    "dosageOptions": [
+      "2.8-5.5 lbs",
+      "5.6-11 lbs",
+      "11.1-22 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      3,
+      6
+    ],
+    "avgRetailPrice": 128.0
+  },
+  {
+    "name": "Imidacloprid-Moxidectin",
+    "brandNames": [
+      "Advantage Multi"
+    ],
+    "species": "both",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "20-55 lbs",
+    "dosageOptions": [
+      "3-9 lbs",
+      "9.1-20 lbs",
+      "20.1-55 lbs",
+      "55.1-88 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      6
+    ],
+    "avgRetailPrice": 118.0
+  },
+  {
+    "name": "Spinosad",
+    "brandNames": [
+      "Comfortis"
+    ],
+    "species": "both",
+    "commonUse": "Heartworm & Flea",
+    "defaultDosage": "20-40 lbs",
+    "dosageOptions": [
+      "5-10 lbs",
+      "10.1-20 lbs",
+      "20.1-40 lbs",
+      "40.1-60 lbs"
+    ],
+    "defaultQuantity": 6,
+    "quantityOptions": [
+      6
+    ],
+    "avgRetailPrice": 96.0
+  },
+  {
+    "name": "Fenbendazole",
+    "brandNames": [
+      "Panacur"
+    ],
+    "species": "both",
+    "commonUse": "Deworming",
+    "defaultDosage": "1g granules",
+    "dosageOptions": [
+      "1g granules",
+      "2g granules",
+      "4g granules",
+      "222 mg/g paste"
+    ],
+    "defaultQuantity": 3,
+    "quantityOptions": [
+      3,
+      10
+    ],
+    "avgRetailPrice": 36.0
+  },
+  {
+    "name": "Praziquantel-Pyrantel-Febantel",
+    "brandNames": [
+      "Drontal Plus"
+    ],
+    "species": "dog",
+    "commonUse": "Deworming",
+    "defaultDosage": "26-60 lbs",
+    "dosageOptions": [
+      "2-25 lbs",
+      "26-60 lbs"
+    ],
+    "defaultQuantity": 2,
+    "quantityOptions": [
+      2,
+      8
+    ],
+    "avgRetailPrice": 42.0
+  },
+  {
+    "name": "Praziquantel",
+    "brandNames": [
+      "Droncit"
+    ],
+    "species": "both",
+    "commonUse": "Deworming",
+    "defaultDosage": "23 mg",
+    "dosageOptions": [
+      "23 mg",
+      "34 mg"
+    ],
+    "defaultQuantity": 2,
+    "quantityOptions": [
+      2
+    ],
+    "avgRetailPrice": 28.0
+  },
+  {
+    "name": "Carprofen",
+    "brandNames": [
+      "Rimadyl"
+    ],
+    "species": "dog",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "75 mg",
+    "dosageOptions": [
+      "25 mg",
+      "75 mg",
+      "100 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      60,
+      180
+    ],
+    "avgRetailPrice": 64.0
+  },
+  {
+    "name": "Grapiprant",
+    "brandNames": [
+      "Galliprant"
+    ],
+    "species": "dog",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "60 mg",
+    "dosageOptions": [
+      "20 mg",
+      "60 mg",
+      "100 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 118.0
+  },
+  {
+    "name": "Meloxicam",
+    "brandNames": [
+      "Metacam"
+    ],
+    "species": "both",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "1.5 mg/mL",
+    "dosageOptions": [
+      "1.5 mg/mL oral",
+      "5 mg/mL injectable",
+      "7.5 mg tab"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1,
+      30
+    ],
+    "avgRetailPrice": 48.0
+  },
+  {
+    "name": "Deracoxib",
+    "brandNames": [
+      "Deramaxx"
+    ],
+    "species": "dog",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "50 mg",
+    "dosageOptions": [
+      "12 mg",
+      "25 mg",
+      "75 mg",
+      "100 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 96.0
+  },
+  {
+    "name": "Firocoxib",
+    "brandNames": [
+      "Previcox"
+    ],
+    "species": "dog",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "57 mg",
+    "dosageOptions": [
+      "57 mg",
+      "227 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 88.0
+  },
+  {
+    "name": "Robenacoxib",
+    "brandNames": [
+      "Onsior"
+    ],
+    "species": "both",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "20 mg",
+    "dosageOptions": [
+      "6 mg",
+      "20 mg",
+      "40 mg"
+    ],
+    "defaultQuantity": 3,
+    "quantityOptions": [
+      3,
+      30
+    ],
+    "avgRetailPrice": 54.0
+  },
+  {
+    "name": "Gabapentin",
+    "brandNames": [
+      "Neurontin"
+    ],
+    "species": "both",
+    "commonUse": "Pain & Anxiety",
+    "defaultDosage": "100 mg",
+    "dosageOptions": [
+      "100 mg",
+      "300 mg",
+      "400 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 36.0
+  },
+  {
+    "name": "Tramadol",
+    "brandNames": [
+      "Ultram"
+    ],
+    "species": "dog",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "50 mg",
+    "dosageOptions": [
+      "50 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      60
+    ],
+    "avgRetailPrice": 38.0
+  },
+  {
+    "name": "Amantadine",
+    "brandNames": [
+      "Symmetrel"
+    ],
+    "species": "dog",
+    "commonUse": "Pain & Arthritis",
+    "defaultDosage": "100 mg",
+    "dosageOptions": [
+      "100 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 42.0
+  },
+  {
+    "name": "Prednisone",
+    "brandNames": [
+      "Deltasone"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Inflammation",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "5 mg",
+      "10 mg",
+      "20 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      10,
+      30
+    ],
+    "avgRetailPrice": 22.0
+  },
+  {
+    "name": "Prednisolone",
+    "brandNames": [
+      "Pediapred"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Inflammation",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "5 mg",
+      "15 mg/5mL"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 24.0
+  },
+  {
+    "name": "Dexamethasone",
+    "brandNames": [
+      "Decadron"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Inflammation",
+    "defaultDosage": "0.5 mg",
+    "dosageOptions": [
+      "0.5 mg",
+      "4 mg"
+    ],
+    "defaultQuantity": 20,
+    "quantityOptions": [
+      20
+    ],
+    "avgRetailPrice": 28.0
+  },
+  {
+    "name": "Trazodone",
+    "brandNames": [
+      "Desyrel"
+    ],
+    "species": "both",
+    "commonUse": "Anxiety & Vet Visits",
+    "defaultDosage": "50 mg",
+    "dosageOptions": [
+      "50 mg",
+      "100 mg",
+      "150 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 32.0
+  },
+  {
+    "name": "Fluoxetine",
+    "brandNames": [
+      "Reconcile"
+    ],
+    "species": "both",
+    "commonUse": "Anxiety & Behavior",
+    "defaultDosage": "16 mg",
+    "dosageOptions": [
+      "8 mg",
+      "16 mg",
+      "32 mg",
+      "64 mg",
+      "10 mg",
+      "20 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 54.0
+  },
+  {
+    "name": "Clomipramine",
+    "brandNames": [
+      "Clomicalm"
+    ],
+    "species": "dog",
+    "commonUse": "Anxiety & Behavior",
+    "defaultDosage": "20 mg",
+    "dosageOptions": [
+      "5 mg",
+      "20 mg",
+      "40 mg",
+      "80 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 86.0
+  },
+  {
+    "name": "Alprazolam",
+    "brandNames": [
+      "Xanax"
+    ],
+    "species": "both",
+    "commonUse": "Anxiety & Vet Visits",
+    "defaultDosage": "0.25 mg",
+    "dosageOptions": [
+      "0.25 mg",
+      "0.5 mg",
+      "1 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 48.0
+  },
+  {
+    "name": "Diazepam",
+    "brandNames": [
+      "Valium"
+    ],
+    "species": "both",
+    "commonUse": "Anxiety & Seizures",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "2 mg",
+      "5 mg",
+      "10 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 36.0
+  },
+  {
+    "name": "Sileo",
+    "brandNames": [
+      "Dexmedetomidine oromucosal"
+    ],
+    "species": "dog",
+    "commonUse": "Anxiety & Noise Phobia",
+    "defaultDosage": "0.1 mL/kg",
+    "dosageOptions": [
+      "3 mL bottle"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 72.0
+  },
+  {
+    "name": "Acepromazine",
+    "brandNames": [
+      "PromAce"
+    ],
+    "species": "both",
+    "commonUse": "Anxiety & Sedation",
+    "defaultDosage": "10 mg",
+    "dosageOptions": [
+      "10 mg",
+      "25 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 28.0
+  },
+  {
+    "name": "Pimobendan",
+    "brandNames": [
+      "Vetmedin"
+    ],
+    "species": "dog",
+    "commonUse": "Heart Disease",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "1.25 mg",
+      "2.5 mg",
+      "5 mg",
+      "10 mg"
+    ],
+    "defaultQuantity": 60,
+    "quantityOptions": [
+      60,
+      100
+    ],
+    "avgRetailPrice": 186.0
+  },
+  {
+    "name": "Furosemide",
+    "brandNames": [
+      "Lasix"
+    ],
+    "species": "both",
+    "commonUse": "Heart Disease",
+    "defaultDosage": "20 mg",
+    "dosageOptions": [
+      "12.5 mg",
+      "20 mg",
+      "40 mg",
+      "80 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 24.0
+  },
+  {
+    "name": "Enalapril",
+    "brandNames": [
+      "Enacard"
+    ],
+    "species": "both",
+    "commonUse": "Heart Disease",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "2.5 mg",
+      "5 mg",
+      "10 mg",
+      "20 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 32.0
+  },
+  {
+    "name": "Benazepril",
+    "brandNames": [
+      "Lotensin"
+    ],
+    "species": "both",
+    "commonUse": "Heart Disease",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "5 mg",
+      "10 mg",
+      "20 mg",
+      "40 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 38.0
+  },
+  {
+    "name": "Spironolactone",
+    "brandNames": [
+      "Aldactone"
+    ],
+    "species": "dog",
+    "commonUse": "Heart Disease",
+    "defaultDosage": "25 mg",
+    "dosageOptions": [
+      "25 mg",
+      "50 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 38.0
+  },
+  {
+    "name": "Amlodipine",
+    "brandNames": [
+      "Norvasc"
+    ],
+    "species": "cat",
+    "commonUse": "Heart Disease & Hypertension",
+    "defaultDosage": "2.5 mg",
+    "dosageOptions": [
+      "2.5 mg",
+      "5 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30,
+      90
+    ],
+    "avgRetailPrice": 42.0
+  },
+  {
+    "name": "Atenolol",
+    "brandNames": [
+      "Tenormin"
+    ],
+    "species": "both",
+    "commonUse": "Heart Disease",
+    "defaultDosage": "25 mg",
+    "dosageOptions": [
+      "25 mg",
+      "50 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 28.0
+  },
+  {
+    "name": "Sotalol",
+    "brandNames": [
+      "Betapace"
+    ],
+    "species": "dog",
+    "commonUse": "Heart Arrhythmia",
+    "defaultDosage": "80 mg",
+    "dosageOptions": [
+      "80 mg",
+      "120 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 64.0
+  },
+  {
+    "name": "Digoxin",
+    "brandNames": [
+      "Lanoxin"
+    ],
+    "species": "dog",
+    "commonUse": "Heart Disease",
+    "defaultDosage": "0.125 mg",
+    "dosageOptions": [
+      "0.125 mg",
+      "0.25 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 36.0
+  },
+  {
+    "name": "Amoxicillin",
+    "brandNames": [
+      "Amoxil"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "250 mg",
+    "dosageOptions": [
+      "250 mg",
+      "500 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      21,
+      30
+    ],
+    "avgRetailPrice": 28.0
+  },
+  {
+    "name": "Amoxicillin-Clavulanate",
+    "brandNames": [
+      "Clavamox"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "125 mg",
+    "dosageOptions": [
+      "62.5 mg",
+      "125 mg",
+      "250 mg",
+      "375 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14,
+      30
+    ],
+    "avgRetailPrice": 54.0
+  },
+  {
+    "name": "Cephalexin",
+    "brandNames": [
+      "Keflex"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "250 mg",
+    "dosageOptions": [
+      "250 mg",
+      "500 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      28,
+      40
+    ],
+    "avgRetailPrice": 36.0
+  },
+  {
+    "name": "Cefpodoxime",
+    "brandNames": [
+      "Simplicef"
+    ],
+    "species": "dog",
+    "commonUse": "Infection",
+    "defaultDosage": "100 mg",
+    "dosageOptions": [
+      "100 mg",
+      "200 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14
+    ],
+    "avgRetailPrice": 68.0
+  },
+  {
+    "name": "Cefovecin",
+    "brandNames": [
+      "Convenia"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "80 mg/mL injection",
+    "dosageOptions": [
+      "80 mg/mL injection"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 124.0
+  },
+  {
+    "name": "Metronidazole",
+    "brandNames": [
+      "Flagyl"
+    ],
+    "species": "both",
+    "commonUse": "GI & Infection",
+    "defaultDosage": "250 mg",
+    "dosageOptions": [
+      "250 mg",
+      "500 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14,
+      30
+    ],
+    "avgRetailPrice": 32.0
+  },
+  {
+    "name": "Doxycycline",
+    "brandNames": [
+      "Vibramycin"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "100 mg",
+    "dosageOptions": [
+      "50 mg",
+      "100 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14,
+      30
+    ],
+    "avgRetailPrice": 48.0
+  },
+  {
+    "name": "Enrofloxacin",
+    "brandNames": [
+      "Baytril"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "68 mg",
+    "dosageOptions": [
+      "22.7 mg",
+      "68 mg",
+      "136 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14
+    ],
+    "avgRetailPrice": 86.0
+  },
+  {
+    "name": "Marbofloxacin",
+    "brandNames": [
+      "Zeniquin"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "25 mg",
+    "dosageOptions": [
+      "25 mg",
+      "50 mg",
+      "100 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14
+    ],
+    "avgRetailPrice": 96.0
+  },
+  {
+    "name": "Clindamycin",
+    "brandNames": [
+      "Antirobe"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "75 mg",
+    "dosageOptions": [
+      "25 mg",
+      "75 mg",
+      "150 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14,
+      28
+    ],
+    "avgRetailPrice": 46.0
+  },
+  {
+    "name": "Sulfamethoxazole-Trimethoprim",
+    "brandNames": [
+      "Bactrim"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "480 mg",
+    "dosageOptions": [
+      "480 mg",
+      "960 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14
+    ],
+    "avgRetailPrice": 34.0
+  },
+  {
+    "name": "Orbifloxacin",
+    "brandNames": [
+      "Orbax"
+    ],
+    "species": "both",
+    "commonUse": "Infection",
+    "defaultDosage": "22.7 mg",
+    "dosageOptions": [
+      "5.7 mg",
+      "22.7 mg",
+      "68 mg"
+    ],
+    "defaultQuantity": 14,
+    "quantityOptions": [
+      14
+    ],
+    "avgRetailPrice": 78.0
+  },
+  {
+    "name": "Maropitant",
+    "brandNames": [
+      "Cerenia"
+    ],
+    "species": "both",
+    "commonUse": "Nausea & Vomiting",
+    "defaultDosage": "24 mg",
+    "dosageOptions": [
+      "16 mg",
+      "24 mg",
+      "60 mg",
+      "160 mg"
+    ],
+    "defaultQuantity": 4,
+    "quantityOptions": [
+      4
+    ],
+    "avgRetailPrice": 56.0
+  },
+  {
+    "name": "Ondansetron",
+    "brandNames": [
+      "Zofran"
+    ],
+    "species": "both",
+    "commonUse": "Nausea & Vomiting",
+    "defaultDosage": "4 mg",
+    "dosageOptions": [
+      "4 mg",
+      "8 mg"
+    ],
+    "defaultQuantity": 10,
+    "quantityOptions": [
+      10,
+      30
+    ],
+    "avgRetailPrice": 48.0
+  },
+  {
+    "name": "Metoclopramide",
+    "brandNames": [
+      "Reglan"
+    ],
+    "species": "both",
+    "commonUse": "Nausea & GI Motility",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "5 mg",
+      "10 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 28.0
+  },
+  {
+    "name": "Omeprazole",
+    "brandNames": [
+      "Prilosec"
+    ],
+    "species": "both",
+    "commonUse": "Acid Reflux & GI",
+    "defaultDosage": "10 mg",
+    "dosageOptions": [
+      "10 mg",
+      "20 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 36.0
+  },
+  {
+    "name": "Famotidine",
+    "brandNames": [
+      "Pepcid"
+    ],
+    "species": "both",
+    "commonUse": "Acid Reflux & GI",
+    "defaultDosage": "10 mg",
+    "dosageOptions": [
+      "10 mg",
+      "20 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 22.0
+  },
+  {
+    "name": "Sucralfate",
+    "brandNames": [
+      "Carafate"
+    ],
+    "species": "both",
+    "commonUse": "GI Ulcers",
+    "defaultDosage": "1 g",
+    "dosageOptions": [
+      "1 g"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 42.0
+  },
+  {
+    "name": "Misoprostol",
+    "brandNames": [
+      "Cytotec"
+    ],
+    "species": "dog",
+    "commonUse": "GI Protection",
+    "defaultDosage": "100 mcg",
+    "dosageOptions": [
+      "100 mcg",
+      "200 mcg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 58.0
+  },
+  {
+    "name": "Loperamide",
+    "brandNames": [
+      "Imodium"
+    ],
+    "species": "dog",
+    "commonUse": "Diarrhea",
+    "defaultDosage": "2 mg",
+    "dosageOptions": [
+      "2 mg"
+    ],
+    "defaultQuantity": 20,
+    "quantityOptions": [
+      20
+    ],
+    "avgRetailPrice": 18.0
+  },
+  {
+    "name": "Levothyroxine",
+    "brandNames": [
+      "Thyro-Tabs"
+    ],
+    "species": "dog",
+    "commonUse": "Thyroid Disease",
+    "defaultDosage": "0.5 mg",
+    "dosageOptions": [
+      "0.1 mg",
+      "0.2 mg",
+      "0.3 mg",
+      "0.4 mg",
+      "0.5 mg",
+      "0.6 mg",
+      "0.7 mg",
+      "0.8 mg"
+    ],
+    "defaultQuantity": 60,
+    "quantityOptions": [
+      60,
+      180
+    ],
+    "avgRetailPrice": 42.0
+  },
+  {
+    "name": "Methimazole",
+    "brandNames": [
+      "Felimazole"
+    ],
+    "species": "cat",
+    "commonUse": "Hyperthyroidism",
+    "defaultDosage": "2.5 mg",
+    "dosageOptions": [
+      "2.5 mg",
+      "5 mg"
+    ],
+    "defaultQuantity": 60,
+    "quantityOptions": [
+      60,
+      180
+    ],
+    "avgRetailPrice": 48.0
+  },
+  {
+    "name": "Insulin",
+    "brandNames": [
+      "Vetsulin"
+    ],
+    "species": "both",
+    "commonUse": "Diabetes",
+    "defaultDosage": "40 units/mL",
+    "dosageOptions": [
+      "40 units/mL vial",
+      "U-100 Lantus pen"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 68.0
+  },
+  {
+    "name": "Insulin Glargine",
+    "brandNames": [
+      "Lantus"
+    ],
+    "species": "cat",
+    "commonUse": "Diabetes",
+    "defaultDosage": "100 units/mL",
+    "dosageOptions": [
+      "100 units/mL vial",
+      "100 units/mL pen"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1,
+      5
+    ],
+    "avgRetailPrice": 312.0
+  },
+  {
+    "name": "Glipizide",
+    "brandNames": [
+      "Glucotrol"
+    ],
+    "species": "cat",
+    "commonUse": "Diabetes",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "5 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 36.0
+  },
+  {
+    "name": "Trilostane",
+    "brandNames": [
+      "Vetoryl"
+    ],
+    "species": "dog",
+    "commonUse": "Cushing's Disease",
+    "defaultDosage": "30 mg",
+    "dosageOptions": [
+      "5 mg",
+      "10 mg",
+      "30 mg",
+      "60 mg",
+      "120 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 148.0
+  },
+  {
+    "name": "Desmopressin",
+    "brandNames": [
+      "DDAVP"
+    ],
+    "species": "both",
+    "commonUse": "Diabetes Insipidus",
+    "defaultDosage": "0.1 mg",
+    "dosageOptions": [
+      "0.1 mg nasal",
+      "0.1 mg tab"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 186.0
+  },
+  {
+    "name": "Neo-Poly-Dex",
+    "brandNames": [
+      "Maxitrol"
+    ],
+    "species": "both",
+    "commonUse": "Eye Infection",
+    "defaultDosage": "ophthalmic ointment",
+    "dosageOptions": [
+      "ophthalmic ointment",
+      "ophthalmic drops"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 32.0
+  },
+  {
+    "name": "Ofloxacin Ophthalmic",
+    "brandNames": [
+      "Ocuflox"
+    ],
+    "species": "both",
+    "commonUse": "Eye Infection",
+    "defaultDosage": "0.3% drops",
+    "dosageOptions": [
+      "0.3% drops"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 38.0
+  },
+  {
+    "name": "Terramycin",
+    "brandNames": [
+      "Terramycin Ophthalmic"
+    ],
+    "species": "both",
+    "commonUse": "Eye Infection",
+    "defaultDosage": "ointment",
+    "dosageOptions": [
+      "ointment"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 28.0
+  },
+  {
+    "name": "Otomax",
+    "brandNames": [
+      "Gentamicin-Betamethasone-Clotrimazole"
+    ],
+    "species": "dog",
+    "commonUse": "Ear Infection",
+    "defaultDosage": "otic ointment",
+    "dosageOptions": [
+      "otic ointment"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 46.0
+  },
+  {
+    "name": "Mometamax",
+    "brandNames": [
+      "Mometasone-Gentamicin-Clotrimazole"
+    ],
+    "species": "dog",
+    "commonUse": "Ear Infection",
+    "defaultDosage": "otic suspension",
+    "dosageOptions": [
+      "otic suspension"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 58.0
+  },
+  {
+    "name": "Posatex",
+    "brandNames": [
+      "Orbifloxacin-Mometasone-Posaconazole"
+    ],
+    "species": "dog",
+    "commonUse": "Ear Infection",
+    "defaultDosage": "otic suspension",
+    "dosageOptions": [
+      "otic suspension"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 64.0
+  },
+  {
+    "name": "Animax",
+    "brandNames": [
+      "Nystatin-Neomycin-Thiostrepton-Triamcinolone"
+    ],
+    "species": "both",
+    "commonUse": "Skin Infection",
+    "defaultDosage": "ointment",
+    "dosageOptions": [
+      "ointment"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 36.0
+  },
+  {
+    "name": "Mupirocin",
+    "brandNames": [
+      "Bactroban"
+    ],
+    "species": "both",
+    "commonUse": "Skin Infection",
+    "defaultDosage": "2% ointment",
+    "dosageOptions": [
+      "2% ointment"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 42.0
+  },
+  {
+    "name": "Phenobarbital",
+    "brandNames": [
+      "Phenobarb"
+    ],
+    "species": "both",
+    "commonUse": "Seizures",
+    "defaultDosage": "30 mg",
+    "dosageOptions": [
+      "15 mg",
+      "30 mg",
+      "60 mg",
+      "100 mg"
+    ],
+    "defaultQuantity": 60,
+    "quantityOptions": [
+      60,
+      180
+    ],
+    "avgRetailPrice": 32.0
+  },
+  {
+    "name": "Levetiracetam",
+    "brandNames": [
+      "Keppra"
+    ],
+    "species": "both",
+    "commonUse": "Seizures",
+    "defaultDosage": "250 mg",
+    "dosageOptions": [
+      "250 mg",
+      "500 mg",
+      "750 mg"
+    ],
+    "defaultQuantity": 60,
+    "quantityOptions": [
+      60,
+      180
+    ],
+    "avgRetailPrice": 68.0
+  },
+  {
+    "name": "Zonisamide",
+    "brandNames": [
+      "Zonegran"
+    ],
+    "species": "dog",
+    "commonUse": "Seizures",
+    "defaultDosage": "100 mg",
+    "dosageOptions": [
+      "25 mg",
+      "50 mg",
+      "100 mg"
+    ],
+    "defaultQuantity": 60,
+    "quantityOptions": [
+      60
+    ],
+    "avgRetailPrice": 86.0
+  },
+  {
+    "name": "Potassium Bromide",
+    "brandNames": [
+      "KBroVet"
+    ],
+    "species": "dog",
+    "commonUse": "Seizures",
+    "defaultDosage": "250 mg",
+    "dosageOptions": [
+      "250 mg",
+      "500 mg"
+    ],
+    "defaultQuantity": 60,
+    "quantityOptions": [
+      60
+    ],
+    "avgRetailPrice": 54.0
+  },
+  {
+    "name": "Prazosin",
+    "brandNames": [
+      "Minipress"
+    ],
+    "species": "both",
+    "commonUse": "Urinary Issues",
+    "defaultDosage": "1 mg",
+    "dosageOptions": [
+      "1 mg",
+      "2 mg",
+      "5 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 42.0
+  },
+  {
+    "name": "Phenylpropanolamine",
+    "brandNames": [
+      "Proin"
+    ],
+    "species": "dog",
+    "commonUse": "Urinary Incontinence",
+    "defaultDosage": "50 mg",
+    "dosageOptions": [
+      "25 mg",
+      "50 mg",
+      "75 mg"
+    ],
+    "defaultQuantity": 60,
+    "quantityOptions": [
+      60
+    ],
+    "avgRetailPrice": 64.0
+  },
+  {
+    "name": "Aluminum Hydroxide",
+    "brandNames": [
+      "Amphojel"
+    ],
+    "species": "both",
+    "commonUse": "Kidney Support",
+    "defaultDosage": "suspension",
+    "dosageOptions": [
+      "suspension"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 24.0
+  },
+  {
+    "name": "Calcitriol",
+    "brandNames": [
+      "Rocaltrol"
+    ],
+    "species": "both",
+    "commonUse": "Kidney Disease",
+    "defaultDosage": "0.25 mcg",
+    "dosageOptions": [
+      "0.25 mcg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 78.0
+  },
+  {
+    "name": "Telmisartan",
+    "brandNames": [
+      "Semintra"
+    ],
+    "species": "cat",
+    "commonUse": "Kidney Disease & Hypertension",
+    "defaultDosage": "10 mg/mL",
+    "dosageOptions": [
+      "10 mg/mL oral"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 96.0
+  },
+  {
+    "name": "Diphenhydramine",
+    "brandNames": [
+      "Benadryl"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Itching",
+    "defaultDosage": "25 mg",
+    "dosageOptions": [
+      "25 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 14.0
+  },
+  {
+    "name": "Cetirizine",
+    "brandNames": [
+      "Zyrtec"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Itching",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "5 mg",
+      "10 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 18.0
+  },
+  {
+    "name": "Hydroxyzine",
+    "brandNames": [
+      "Atarax"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Itching",
+    "defaultDosage": "10 mg",
+    "dosageOptions": [
+      "10 mg",
+      "25 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 28.0
+  },
+  {
+    "name": "Chlorpheniramine",
+    "brandNames": [
+      "Chlor-Trimeton"
+    ],
+    "species": "both",
+    "commonUse": "Allergies & Itching",
+    "defaultDosage": "4 mg",
+    "dosageOptions": [
+      "4 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 16.0
+  },
+  {
+    "name": "Theophylline",
+    "brandNames": [
+      "Theo-Dur"
+    ],
+    "species": "both",
+    "commonUse": "Respiratory",
+    "defaultDosage": "100 mg",
+    "dosageOptions": [
+      "100 mg",
+      "200 mg",
+      "300 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 42.0
+  },
+  {
+    "name": "Hydrocodone-Homatropine",
+    "brandNames": [
+      "Hycodan"
+    ],
+    "species": "dog",
+    "commonUse": "Cough",
+    "defaultDosage": "5 mg",
+    "dosageOptions": [
+      "5 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 48.0
+  },
+  {
+    "name": "Butorphanol",
+    "brandNames": [
+      "Torbutrol"
+    ],
+    "species": "both",
+    "commonUse": "Cough & Pain",
+    "defaultDosage": "1 mg",
+    "dosageOptions": [
+      "1 mg",
+      "5 mg"
+    ],
+    "defaultQuantity": 30,
+    "quantityOptions": [
+      30
+    ],
+    "avgRetailPrice": 56.0
+  },
+  {
+    "name": "Lactulose",
+    "brandNames": [
+      "Cephulac"
+    ],
+    "species": "both",
+    "commonUse": "Constipation & Hepatic",
+    "defaultDosage": "10 g/15 mL",
+    "dosageOptions": [
+      "10 g/15 mL"
+    ],
+    "defaultQuantity": 1,
+    "quantityOptions": [
+      1
+    ],
+    "avgRetailPrice": 28.0
+  }
+]
